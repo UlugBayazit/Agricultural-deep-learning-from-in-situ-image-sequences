@@ -15,3 +15,7 @@ The files batch_generator_phenology.py and batch_generator.py generates batches 
 networks used in classification/prediction  
 
 Important note: Even though the results reported for VGG-16 in the article referenced above are based on Tensorflow 1.12 only, for comparison with the deep networks of ResNet101 and DenseNet201, the original source codes for the feature extractor networks and their batch generator (not provided here) have been ported to Tensorflow 2.6. The changes, however, are only minor.
+
+A sample dataset (watermarked) has been provided to give an idea about the kind of image sequence data processed. The sample size is approximately 1/10th of the dataset used in the simulations of the above mentioned paper.
+If you would like to gain access to the original dataset used in the studies, please contact Prof. U. Bayazit (ulugbayazit@itu.edu.tr) or Prof. T. Altilar (altilar@itu.edu.tr) for licensing. Istanbul Technical University and Ministry of Agriculture and Forestry of Turkey have exclusive rights on the dataset.
+The dataset comes together with metadata for each plant type that, most importantly, lists the onset dates of each of the phenological stages. The metadata files are accessed from the source codes, and therefore, should not be changed for proper stage labelling.
